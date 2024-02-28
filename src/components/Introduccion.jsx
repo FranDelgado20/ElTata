@@ -8,18 +8,18 @@ import { Typography } from "@material-tailwind/react";
 
 const Introduccion = () => {
   return (
-    <div className="overflow-hidden  py-24 sm:py-32">
+    <div className="overflow-hidden  py-24 sm:py-32" >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-          <div className="lg:pr-8 lg:pt-4">
-            <div className="lg:max-w-lg">
-              <Typography variant="h3">
+        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2" >
+          <div className="lg:pr-8 lg:pt-4" >
+            <div className="lg:max-w-lg"  >
+              <Typography variant="h3" data-aos="zoom-in-down" >
                 ¡Bienvenidos a El Tata, pioneros del sándwich desde 1965!
               
               </Typography>
 
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
-                <div className="relative pl-9 flex">
+                <div className="relative pl-9 flex"  data-aos="zoom-in-down">
                   <dt className="inline font-semibold text-gray-900">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -36,7 +36,7 @@ const Introduccion = () => {
                   </dt>{" "}
                   <dd className="inline">Entrega rápida y confiable</dd>
                 </div>
-                <div className="relative pl-9 flex">
+                <div className="relative pl-9 flex"  data-aos="zoom-in-down">
                   <dt className="inline font-semibold text-gray-900">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +54,7 @@ const Introduccion = () => {
                   </dt>{" "}
                   <dd className="inline">Promociones Especiales</dd>
                 </div>
-                <div className="relative pl-9 flex">
+                <div className="relative pl-9 flex" data-aos="zoom-in-down">
                   <dt className="inline font-semibold text-gray-900">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -71,7 +71,7 @@ const Introduccion = () => {
                 </div>
 
                 <div>
-                  <button
+                  <button data-aos="zoom-out-up"
                     type="submit"
                     className="mt-10 flex w-full items-center justify-center rounded-md border border-transparent  px-8 py-3 text-base font-medium btn-wp text-white  focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                   >
@@ -86,7 +86,7 @@ const Introduccion = () => {
               </dl>
             </div>
           </div>
-          <div>
+          <div data-aos="zoom-out">
             <img
               src="sanguche2.jpg"
               alt="Product screenshot"

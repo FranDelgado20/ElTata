@@ -7,7 +7,7 @@ const Comentarios = () => {
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.indigo.100),white)] opacity-20" />
       <div className="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg]  shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center" />
       <Row>
-        <Col lg={6} sm={12} className="flex justify-start">
+        <Col lg={6} sm={12} className="flex justify-start" data-aos="zoom-in-right">
           <div className="mx-auto max-w-2xl lg:max-w-4xl">
             <img className="mx-auto w-32 rounded-full" src="logo.png" alt="" />
             <figure className="mt-10">
@@ -37,7 +37,7 @@ const Comentarios = () => {
             </figure>
           </div>
         </Col>
-        <Col lg={6} sm={12} className="flex justify-center">
+        <Col lg={6} sm={12} className="flex justify-center" data-aos="zoom-in">
           <img
             src="sanguche1.jpg"
             className="img-fluid w-96 rounded-lg"
