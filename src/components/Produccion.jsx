@@ -2,7 +2,7 @@ import { Typography } from "@material-tailwind/react";
 import React from "react";
 const stats = [
   { id: 1, name: "Transactions every 24 hours", img: "/preferido.png" },
-  { id: 2, name: "Assets under holding", img: "/carne.png" },
+  { id: 2, name: "Assets under holding", img: "/hellmans.png" },
   { id: 3, name: "New users annually", img: "/cocinero.png" },
 ];
 
@@ -20,7 +20,7 @@ const Produccion = () => {
               key={stat.id}
               className="mx-auto flex max-w-xs flex-col gap-y-4"
             >
-              {/* <dt className="text-base leading-7 text-gray-600">{stat.name}</dt> */}
+            
               <img
                 className="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl"
                 src={stat.img}

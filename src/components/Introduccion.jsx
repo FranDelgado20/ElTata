@@ -14,10 +14,8 @@ const Introduccion = () => {
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
               <Typography variant="h3">
-                Prepárate para deleitar tus sentidos y descubre por qué somos el
-                destino preferido de los verdaderos amantes de los sánguches de
-                milanesa y lomitos. ¡Bienvenidos a El Tata, donde la tradición y
-                el sabor se encuentran en cada bocado!
+                ¡Bienvenidos a El Tata, donde la tradición y el sabor se
+                encuentran en cada bocado!
               </Typography>
 
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
@@ -71,16 +69,32 @@ const Introduccion = () => {
                     Compromiso con la Excelencia en Calidad
                   </dd>
                 </div>
+
+                <div>
+                  <button
+                    type="submit"
+                    className="mt-10 flex w-full items-center justify-center rounded-md border border-transparent  px-8 py-3 text-base font-medium btn-wp text-white  focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                  >
+                    <a
+                      href="https://wa.me/3815025234?text=Hola,%20me%20gustaría%20hacer%20un%20pedido"
+                      className="no-underline  flex w-full items-center justify-center rounded-md    text-base font-medium btn-wp text-white  "
+                    >
+                      ¡Pedí el tuyo!   <i className="bi bi-whatsapp ms-1 "></i>
+                    </a>
+                  </button>
+                </div>
               </dl>
             </div>
           </div>
-          <img
-            src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
-            alt="Product screenshot"
-            className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
-            width={2432}
-            height={1442}
-          />
+          <div>
+            <img
+              src="sanguche2.jpg"
+              alt="Product screenshot"
+              className=" rounded-xl shadow-xl ring-1 ring-gray-400/10 img-fluid "
+              width={2432}
+              height={1442}
+            />
+          </div>
         </div>
       </div>
     </div>

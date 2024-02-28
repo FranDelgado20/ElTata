@@ -13,16 +13,17 @@ const HomePage = () => {
     <>
       <Container fluid>
         <section className="min-h-screen py-8 px-8 lg:py-28">
-          <Introduccion/>
+          <Introduccion />
         </section>
         <section>
-          <Comentarios/>
+          <Comentarios />
         </section>
-      <section>
-    <Produccion/>
-      </section>
-      
-       
+        <section>
+          <Produccion />
+        </section>
+        <a href="https://wa.me/3815025234?text=Hola,%20me%20gustaría%20hacer%20un%20pedido"target="_blank" className="btn-wsp">
+          <i className="bi bi-whatsapp ms-1 "></i>
+        </a>
       </Container>
     </>
   );
