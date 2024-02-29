@@ -59,7 +59,7 @@ const Introduccion = () => {
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
                       fill="currentColor"
-                      className="w-6 h-6"
+                      className="w-6 h-6 me-1"
                     >
                       <path
                         fillRule="evenodd"
@@ -82,7 +82,7 @@ const Introduccion = () => {
                     </svg>
                   </dt>{" "}
                   <dd className="inline">
-                  Comprometidos a utilizar los mejores productos frescos y de primera calidad en cada preparación.
+                  Calidad garantizada en cada preparación de sándwich.
                   </dd>
                 </div>
 
