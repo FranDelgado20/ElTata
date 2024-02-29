@@ -51,7 +51,7 @@ const Introduccion = () => {
                       />
                     </svg>
                   </dt>{" "}
-                  <dd className="inline">Promociones Especiales</dd>
+                  <dd className="inline">Promociones especiales</dd>
                 </div>
                 <div className="relative pl-9 flex" data-aos="zoom-in-down">
                   <dt className="inline font-semibold text-gray-900">
@@ -82,7 +82,7 @@ const Introduccion = () => {
                     </svg>
                   </dt>{" "}
                   <dd className="inline">
-                  Calidad garantizada en cada preparación de sándwich.
+                  Calidad asegurada en cada sándwich
                   </dd>
                 </div>
 
