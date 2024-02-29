@@ -8,18 +8,17 @@ import { Typography } from "@material-tailwind/react";
 
 const Introduccion = () => {
   return (
-    <div className="overflow-hidden  py-24 sm:py-32" >
+    <div className="overflow-hidden  py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2" >
-          <div className="lg:pr-8 lg:pt-4" >
-            <div className="lg:max-w-lg"  >
-              <Typography variant="h3" data-aos="zoom-in-down" >
+        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+          <div className="lg:pr-8 lg:pt-4">
+            <div className="lg:max-w-lg">
+              <Typography variant="h3" data-aos="zoom-in-down">
                 ¡Bienvenidos a El Tata, pioneros del sándwich desde 1965!
-              
               </Typography>
 
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
-                <div className="relative pl-9 flex"  data-aos="zoom-in-down">
+                <div className="relative pl-9 flex" data-aos="zoom-in-down">
                   <dt className="inline font-semibold text-gray-900">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -36,7 +35,7 @@ const Introduccion = () => {
                   </dt>{" "}
                   <dd className="inline">Entrega rápida y confiable</dd>
                 </div>
-                <div className="relative pl-9 flex"  data-aos="zoom-in-down">
+                <div className="relative pl-9 flex" data-aos="zoom-in-down">
                   <dt className="inline font-semibold text-gray-900">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -60,18 +59,36 @@ const Introduccion = () => {
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
                       fill="currentColor"
+                      className="w-6 h-6"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm-2.625 6c-.54 0-.828.419-.936.634a1.96 1.96 0 0 0-.189.866c0 .298.059.605.189.866.108.215.395.634.936.634.54 0 .828-.419.936-.634.13-.26.189-.568.189-.866 0-.298-.059-.605-.189-.866-.108-.215-.395-.634-.936-.634Zm4.314.634c.108-.215.395-.634.936-.634.54 0 .828.419.936.634.13.26.189.568.189.866 0 .298-.059.605-.189.866-.108.215-.395.634-.936.634-.54 0-.828-.419-.936-.634a1.96 1.96 0 0 1-.189-.866c0-.298.059-.605.189-.866Zm2.023 6.828a.75.75 0 1 0-1.06-1.06 3.75 3.75 0 0 1-5.304 0 .75.75 0 0 0-1.06 1.06 5.25 5.25 0 0 0 7.424 0Z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </dt>{" "}
+                  <dd className="inline">Compromiso con nuestros clientes</dd>
+                </div>
+                <div className="relative pl-9 flex" data-aos="zoom-in-down">
+                  <dt className="inline font-semibold text-gray-900">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
                       className="w-6 h-6 me-1"
                     >
                       <path d="M7.493 18.5c-.425 0-.82-.236-.975-.632A7.48 7.48 0 0 1 6 15.125c0-1.75.599-3.358 1.602-4.634.151-.192.373-.309.6-.397.473-.183.89-.514 1.212-.924a9.042 9.042 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75A.75.75 0 0 1 15 2a2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H14.23c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23h-.777ZM2.331 10.727a11.969 11.969 0 0 0-.831 4.398 12 12 0 0 0 .52 3.507C2.28 19.482 3.105 20 3.994 20H4.9c.445 0 .72-.498.523-.898a8.963 8.963 0 0 1-.924-3.977c0-1.708.476-3.305 1.302-4.666.245-.403-.028-.959-.5-.959H4.25c-.832 0-1.612.453-1.918 1.227Z" />
                     </svg>
                   </dt>{" "}
                   <dd className="inline">
-                    Compromiso con la Excelencia en Calidad
+                  Comprometidos a utilizar los mejores productos frescos y de primera calidad en cada preparación.
                   </dd>
                 </div>
 
                 <div>
-                  <button data-aos="zoom-out-up"
+                  <button
+                    data-aos="zoom-out-up"
                     type="submit"
                     className="mt-10 flex w-full items-center justify-center rounded-md border border-transparent  px-8 py-3 text-base font-medium btn-wp text-white  focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                   >
@@ -79,7 +96,7 @@ const Introduccion = () => {
                       href="https://wa.me/3815025234?text=Hola,%20me%20gustaría%20hacer%20un%20pedido"
                       className="no-underline  flex w-full items-center justify-center rounded-md    text-base font-medium btn-wp text-white  "
                     >
-                      ¡Pedí el tuyo!   <i className="bi bi-whatsapp ms-1 "></i>
+                      ¡Pedí el tuyo! <i className="bi bi-whatsapp ms-1 "></i>
                     </a>
                   </button>
                 </div>
