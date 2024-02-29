@@ -14,7 +14,7 @@ const Introduccion = () => {
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
               <Typography variant="h3" data-aos="zoom-in-down">
-                ¡Bienvenidos a El Tata, pioneros del sándwich desde 1965!
+                ¡Bienvenidos a El Tata, pionero del sándwich desde 1965!
               </Typography>
 
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
