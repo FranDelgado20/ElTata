@@ -4,6 +4,8 @@ import { Typography, Breadcrumbs } from "@material-tailwind/react";
 import Produccion from "../components/Produccion";
 import Comentarios from "../components/Comentarios";
 import Introduccion from "../components/Introduccion";
+import Avisos from "../components/Avisos";
+import Horarios from "../components/Horarios";
 
 const HomePage = () => {
   const [open, setOpen] = useState(1);
@@ -11,8 +13,10 @@ const HomePage = () => {
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
   return (
     <>
+    
       <Container fluid>
-        
+        <Horarios/>
+        <Avisos/>
         <section className="min-h-screen py-8 px-8 lg:py-28">
           <Introduccion />
         </section>
