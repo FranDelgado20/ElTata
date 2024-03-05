@@ -14,8 +14,8 @@ const HomePage = () => {
   return (
     <>
     
+        {/* <Horarios/> */}
       <Container fluid>
-        <Horarios/>
         <Avisos/>
         <section className="min-h-screen py-8 px-8 lg:py-28">
           <Introduccion />
